@@ -1,0 +1,73 @@
+html, body {
+    height: 100%; /* Pastikan elemen html dan body memiliki tinggi 100% */
+    margin: 0; /* Hilangkan margin default di browser */
+    padding: 0; /* Hilangkan padding default di browser */
+    background-color: #FFC0CB; /* Background merah muda */
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #d6336c; /* Warna judul lebih gelap agar menonjol */
+    font-size: 2em;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d6336c; /* Warna tombol merah muda */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b02a57; /* Warna tombol saat hover */
+}
+
+/* Hiasan Bentuk Hati dan Kecupan */
+.hiasan {
+    font-size: 2em;
+    color: #d6336c;
+    margin: 20px 0;
+}
+
+.hiasan img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
